@@ -225,9 +225,6 @@ a {
     font-size: 27px;
 
 }
-.header__logo a{
-    padding: 10px;
-}
 .footer__logo span{
     color: var(--hovercolor);
 }
