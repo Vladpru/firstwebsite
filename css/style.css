@@ -38,12 +38,8 @@ a {
 .header__logo > p {
     color: var(--textcolor);
 }
-.header__logo a{
-    padding: 10px;
-}
-
 .header__logo span{
-    padding: 10px 10px 10px 40px;
+    padding: 0px 0px 0px 0px;
     transition: 500ms ease;
 }
 .header__logo span:hover {
