@@ -1,7 +1,8 @@
 * {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    }
+
+}
 :root {
     --bgcolor: #fffbf6;
     --textcolor: #888989;
@@ -14,7 +15,6 @@
     margin: 0 auto;
 }
 a {
-    text-decoration: none;
     color: var(--textcolor);
 }
 /* HEADER ###########*/
@@ -97,7 +97,6 @@ a {
 
 
 
-/*  */
 /* FOOTER ######### */
 .footer {
     height: 200px;
