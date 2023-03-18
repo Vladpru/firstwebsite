@@ -37,8 +37,11 @@ a {
     font-size: 27px;
     display: flex;
 }
+.header__logo > p {
+    color: var(--textcolor);
+}
 .header__logo > p > a {
-    color: #000;
+    color: var(--textcolor);
     transition: 300ms ease-in ;
 }
 .header__logo > p > a::before {
@@ -53,7 +56,6 @@ a {
     color: var(--hovercolor);
     text-shadow: 0 0 10px ;
     transition: 300ms ease-out ;
-
 }
 
 
