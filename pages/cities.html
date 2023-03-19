@@ -34,12 +34,32 @@
             </div>
         </div>
     </header>
-    <div class="slider">
-        <div class="container-slider">
-            
+    <div class="carousel">
+        <button class="carousel__button carousel__button--left is-hidden">
+            <img  src="../img/slider-img/left.svg" alt="">
+        </button>
+        <div class="carousel__track-container">
+            <ul class="carousel__track">
+                <li class="carousel__slide current-slide">
+                    <img class="carousel__image" src="../img/slider-img/1.jpg" alt="img">
+                </li>
+                <li class="carousel__slide">
+                    <img class="carousel__image" src="../img/slider-img/2.jpg" alt="img">
+                </li>
+                <li class="carousel__slide">
+                    <img class="carousel__image" src="../img/slider-img/3.jpg" alt="img">    
+                </li>
+            </ul>
+        </div>
+        <button class="carousel__button carousel__button--right">
+            <img  src="../img/slider-img/right.svg" alt="">
+        </button>
+        <div class="carousel__nav">
+            <button class="carousel__indicator current-slide"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
         </div>
     </div>
-
 
 
 
@@ -70,7 +90,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="../js/cities.js"></script>
 </body>
 
 </html>
