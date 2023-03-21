@@ -60,7 +60,6 @@ nextButton.addEventListener('click', e => {
     updateDots(currentDot, nextDot)
     hideShowArrows(slides, prevButton, nextButton, nextIndex);
 })
-//
 
 dotsNav.addEventListener('click', e => {
     const targetDot = e.target.closest('button');
