@@ -14,6 +14,11 @@
     width: 1720px;
     margin: 0 auto;
 }
+.wrapper-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
 a {
     color: var(--textcolor);
     text-decoration: none;
@@ -118,6 +123,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
 }
 .carousel__slide p {
     position: absolute;
@@ -129,7 +135,6 @@ a {
 .carousel__image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 .carousel__button {
     position: absolute;
@@ -200,17 +205,8 @@ a {
     font-weight: 400;
     line-height: 25px;
 }   
-
 .london__images {
     margin-top: 30px;
-}
-.wrapper-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-}
-.london__images-text {
-    grid-area: text;
 }
 .london__img img{
     width: 100%;
@@ -218,8 +214,28 @@ a {
     border-radius: 20px;
 }
 /* PARIS ###################*/
-
-
+.paris {
+    margin-top: 90px;
+    text-align: center;
+}
+.paris__text {
+    color: var(--textcolor);
+}
+.paris__text p {
+    margin-top: 15px;
+    width: 1700px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.paris__images {
+    margin-top: 30px;
+}
+.paris__img img {
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+}
+/*  */
 
 
 
